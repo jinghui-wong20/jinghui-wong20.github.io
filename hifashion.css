@@ -1,0 +1,178 @@
+/*navigation bar styling*/
+nav{
+    text-align: left;
+    line-height: 95px;
+    padding-top: 50px;
+}
+
+nav a{
+    font-size: xx-large;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a:link{
+    color: black;
+}
+
+nav a:visited{
+    color: rgb(135, 126, 126);
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/*search bar styling*/
+.search-bar{
+    float: right;
+    padding-right: 20px;
+}
+
+.search-bar input{
+    width: 150px;
+    height: 35px;
+    border: none;
+}
+
+.search-bar button{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0;
+    background: transparent;
+}
+
+.search-bar button:hover{
+    color: gold;
+}
+
+/* logo styling*/
+#logo{
+    float: left;
+    height: 100px;
+    width: 205px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/*webpage background color*/
+body{
+    background-color: white;
+    font-family: arial;
+}
+
+/*shoopping cart logo styling*/
+.fa{
+    float: right;
+    padding-top: 30px;
+    padding-right: 60px;
+}
+
+/*magnifying glass stying*/
+.search-bar .fa-solid{
+    float: right;
+    padding-top: 30px;
+    padding-right: 60px;
+}
+
+/*footer styling*/
+footer{
+    width: 100%;
+    bottom: 0;
+    background: transparent
+    color: black;
+    padding-top: 75px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 50px;
+    border-top: 2px solid black;
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 18%;
+}
+
+.col h2{
+    font-family: arial;
+    width: fit-content;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.col h2{
+    font-size: 24px;
+    font-family: arial;
+}
+
+.col p{
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 500;
+}
+
+.col p a{
+    text-decoration: none;
+    color: black;
+}
+
+.col p a:hover{
+    color: gold;
+}
+
+.social-icons .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.social-icons .fab:hover{
+    color: gold;
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid black;
+    margin: 20px auto;
+    padding-top: 50px;
+
+}
+
+.copyright{
+    text-align: center;
+}

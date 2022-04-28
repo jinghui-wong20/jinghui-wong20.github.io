@@ -1,0 +1,12 @@
+.about-wrapper{
+    font-family: arial;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.about-wrapper h2{
+    text-transform: uppercase;
+}
+.about-wrapper p{
+    font-size: 17px;
+}
